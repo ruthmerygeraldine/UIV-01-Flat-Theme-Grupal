@@ -334,153 +334,6 @@ header>ul> li > a:active:before {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------------------------ */
 /* FONDO DE PIE DE PAGINA */
 .footer-fluid{
@@ -585,7 +438,7 @@ header>ul> li > a:active:before {
     left: 230px;
 }
 .container{
-	width: 1000px;
+	width: 100%;
 }
 .footer-fluid2{
 	background: #2c3e50;
@@ -739,7 +592,11 @@ header>ul> li > a:active:before {
     top: 35px;"
   }
 }
-
+@media screen and (max-width: 700px){
+  .apps{
+    flex-direction: column;
+  }
+}
 /* impieza la secction de services.html*/
 #services .media:hover .icon-md {
   border-radius: 10px;
